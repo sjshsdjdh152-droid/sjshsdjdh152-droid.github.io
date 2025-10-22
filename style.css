@@ -1,0 +1,17 @@
+.element:hover {
+  color: red;
+}
+
+.element1 {
+  background: white;
+}
+
+.parent {
+  & .child {
+    background: red;
+  }
+}
+
+.parent .child {
+  background: red;
+}
